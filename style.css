@@ -61,6 +61,14 @@ img{max-width:100%;display:block}
   linear-gradient(145deg,rgba(21,94,117,.95),rgba(15,118,110,.8));
   display:grid;place-items:center;color:white;font-size:5rem;font-weight:800;letter-spacing:-.08em
 }
+.profile-photo{
+  width:100%;
+  aspect-ratio:1;
+  object-fit:cover;
+  object-position:center 30%;
+  border-radius:22px;
+  display:block;
+}
 .profile-meta{margin-top:18px}
 .profile-meta strong{display:block;font-size:1.12rem}
 .profile-meta span{color:var(--muted)}

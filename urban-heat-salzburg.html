@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Geospatial analysis of urban heat risk and cooling accessibility for vulnerable populations in Salzburg by Charles Olalekan Collins.">
+  <title>Urban Heat Risk in Salzburg | Charles Olalekan Collins</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<header class="site-header">
+  <div class="container nav-wrap">
+
+    <a class="brand" href="index.html">
+      Charles <span>Collins</span>
+    </a>
+
+    <button class="menu-btn"
+            aria-label="Toggle navigation"
+            aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="thesis.html">Master Thesis</a>
+      <a href="skills.html">Skills</a>
+      <a href="resume.html">Résumé</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<main>
+
+<!-- =========================
+     PROJECT HERO
+========================= -->
+
+<section class="project-hero">
+  <div class="container">
+
+    <span class="eyebrow">Featured Geospatial Project</span>
+
+    <h1>
+      Geospatial Analysis of Urban Heat Risk and Cooling Accessibility
+      for Vulnerable Populations in Salzburg
+    </h1>
+
+    <p class="project-lead">
+      An integrated GIS and remote-sensing study combining urban heat
+      exposure, demographic vulnerability, land-cover characteristics
+      and accessibility to green and blue cooling infrastructure across
+      Salzburg City, Austria.
+    </p>
+
+    <div class="project-tags">
+      <span>GIS</span>
+      <span>Remote Sensing</span>
+      <span>Google Earth Engine</span>
+      <span>QGIS</span>
+      <span>Network Analysis</span>
+      <span>Urban Climate</span>
+      <span>Spatial Modelling</span>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     PROJECT OVERVIEW
+========================= -->
+
+<section class="section">
+  <div class="container">
+
+    <div class="project-meta-grid">
+
+      <div class="project-meta">
+        <span>Project Type</span>
+        <strong>Master's Research</strong>
+      </div>
+
+      <div class="project-meta">
+        <span>Study Area</span>
+        <strong>Salzburg City, Austria</strong>
+      </div>
+
+      <div class="project-meta">
+        <span>Spatial Units</span>
+        <strong>32 Census Districts</strong>
+      </div>
+
+      <div class="project-meta">
+        <span>Year</span>
+        <strong>2026</strong>
+      </div>
+
+    </div>
+
+
+    <div class="section-head project-section-head">
+      <span class="eyebrow">Project Overview</span>
+
+      <h2>Understanding heat risk beyond temperature alone</h2>
+
+      <p>
+        Urban heat risk is influenced not only by where high
+        temperatures occur, but also by who is exposed, the physical
+        characteristics of the urban environment and whether residents
+        can reach cooling resources.
+      </p>
+
+      <p>
+        This study developed an integrated geospatial framework for
+        examining these relationships across Salzburg. Environmental,
+        demographic and accessibility indicators were combined to
+        identify areas where high heat exposure overlaps with greater
+        vulnerability and limited access to cooling infrastructure.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     STUDY AREA
+========================= -->
+
+<section class="section alt-section">
+  <div class="container">
+
+    <div class="project-text-grid">
+
+      <div>
+        <span class="eyebrow">01 · Study Area</span>
+
+        <h2>Salzburg City</h2>
+
+        <p>
+          Salzburg provides a useful setting for urban heat research
+          because its compact built-up areas, transport infrastructure,
+          river corridor, green spaces and surrounding terrain create
+          contrasting local environmental conditions.
+        </p>
+
+        <p>
+          The analysis was carried out across 32 census districts
+          (Zählbezirke), allowing environmental and demographic
+          indicators to be compared using a common spatial framework.
+        </p>
+
+        <p>
+          The Salzach River and the city's road network were also
+          important components of the accessibility analysis.
+        </p>
+      </div>
+
+
+      <figure class="project-figure">
+        <img
+          src="assets/img/urban-heat/salzburg-study-area.png"
+          alt="Map of Salzburg City showing roads, waterways and the Salzach River">
+
+        <figcaption>
+          Study area showing Salzburg's road network, waterways,
+          administrative districts and the Salzach River.
+        </figcaption>
+      </figure>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     RESEARCH CHALLENGE
+========================= -->
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-head project-section-head">
+
+      <span class="eyebrow">02 · Research Challenge</span>
+
+      <h2>Where do heat exposure and vulnerability intersect?</h2>
+
+      <p>
+        The project investigates how urban heat exposure varies across
+        Salzburg and whether districts containing potentially vulnerable
+        population groups also experience environmental conditions that
+        can increase heat risk.
+      </p>
+
+      <p>
+        Particular attention was given to children and older adults,
+        vegetation conditions, built-up intensity and access to green
+        and blue infrastructure that can provide opportunities for
+        cooling during periods of extreme heat.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     DATA AND TOOLS
+========================= -->
+
+<section class="section alt-section">
+  <div class="container">
+
+    <div class="section-head project-section-head">
+      <span class="eyebrow">03 · Data & Tools</span>
+      <h2>Integrating multiple spatial datasets</h2>
+    </div>
+
+
+    <div class="grid-2">
+
+      <div class="card">
+        <h3>Data Sources</h3>
+
+        <ul class="project-list">
+          <li>Landsat 8 and Landsat 9 satellite imagery</li>
+          <li>GeoSphere Austria climate records</li>
+          <li>Salzburg City demographic data</li>
+          <li>OpenStreetMap road and infrastructure data</li>
+          <li>Urban green and blue infrastructure datasets</li>
+          <li>Building and land-cover information</li>
+        </ul>
+      </div>
+
+
+      <div class="card">
+        <h3>Software & Methods</h3>
+
+        <ul class="project-list">
+          <li>QGIS</li>
+          <li>Google Earth Engine</li>
+          <li>Remote-sensing image processing</li>
+          <li>Raster and vector spatial analysis</li>
+          <li>Network and service-area analysis</li>
+          <li>Zonal statistics</li>
+          <li>Indicator normalization</li>
+          <li>Composite spatial index modelling</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     WORKFLOW
+========================= -->
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-head project-section-head">
+      <span class="eyebrow">04 · Analytical Workflow</span>
+      <h2>From raw spatial data to integrated heat-risk assessment</h2>
+    </div>
+
+
+    <div class="workflow-grid">
+
+      <div class="workflow-step">
+        <span>01</span>
+        <h3>Data Acquisition</h3>
+        <p>
+          Climate, satellite, demographic, land-cover, road,
+          building and cooling-infrastructure datasets were assembled.
+        </p>
+      </div>
+
+      <div class="workflow-step">
+        <span>02</span>
+        <h3>Remote Sensing</h3>
+        <p>
+          Landsat imagery was processed to derive Land Surface
+          Temperature and environmental indicators.
+        </p>
+      </div>
+
+      <div class="workflow-step">
+        <span>03</span>
+        <h3>Vulnerability</h3>
+        <p>
+          Population indicators were analysed to represent
+          demographic sensitivity to heat.
+        </p>
+      </div>
+
+      <div class="workflow-step">
+        <span>04</span>
+        <h3>Accessibility</h3>
+        <p>
+          GIS network analysis was used to evaluate access to
+          green and blue cooling infrastructure.
+        </p>
+      </div>
+
+      <div class="workflow-step">
+        <span>05</span>
+        <h3>Integration</h3>
+        <p>
+          Standardized indicators were combined into the Composite
+          Urban Heat Risk Index.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     LST
+========================= -->
+
+<section class="section alt-section">
+  <div class="container">
+
+    <div class="project-text-grid">
+
+      <div>
+        <span class="eyebrow">05 · Heat Exposure</span>
+
+        <h2>Summer Land Surface Temperature</h2>
+
+        <p>
+          Land Surface Temperature was derived from Landsat imagery
+          processed through Google Earth Engine to examine the spatial
+          distribution of surface heating across Salzburg.
+        </p>
+
+        <p>
+          The 2025 summer result demonstrates substantial spatial
+          variation. Higher surface temperatures are concentrated in
+          several densely developed and impervious areas, while cooler
+          conditions occur around vegetated areas, water corridors and
+          less intensively built locations.
+        </p>
+
+        <div class="mini-callout">
+          <strong>Indicator:</strong>
+          Summer Land Surface Temperature (LST)
+        </div>
+      </div>
+
+
+      <figure class="project-figure">
+        <img
+          src="assets/img/urban-heat/salzburg-lst-2025.png"
+          alt="Summer 2025 Land Surface Temperature distribution across Salzburg City">
+
+        <figcaption>
+          Summer Land Surface Temperature distribution across
+          Salzburg City for 2025.
+        </figcaption>
+      </figure>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     DEMOGRAPHIC VULNERABILITY
+========================= -->
+
+<section class="section">
+  <div class="container">
+
+    <div class="project-text-grid">
+
+      <figure class="project-figure">
+        <img
+          src="assets/img/urban-heat/salzburg-children-vulnerability.png"
+          alt="Spatial distribution of children under 15 across Salzburg">
+
+        <figcaption>
+          Spatial distribution of children under 15 years across
+          Salzburg's census districts.
+        </figcaption>
+      </figure>
+
+
+      <div>
+        <span class="eyebrow">06 · Demographic Vulnerability</span>
+
+        <h2>Identifying sensitive population groups</h2>
+
+        <p>
+          Heat exposure does not affect all population groups equally.
+          The demographic component of the analysis therefore considered
+          population groups that may be more sensitive during periods
+          of extreme heat.
+        </p>
+
+        <p>
+          The map illustrates the spatial distribution of children
+          under 15 years across Salzburg. This information was combined
+          with other vulnerability indicators during the integrated
+          risk assessment.
+        </p>
+
+        <div class="mini-callout">
+          <strong>Vulnerability focus:</strong>
+          Children and older adults
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     COOLING ACCESSIBILITY
+========================= -->
+
+<section class="section alt-section">
+  <div class="container">
+
+    <div class="section-head project-section-head">
+
+      <span class="eyebrow">07 · Cooling Accessibility</span>
+
+      <h2>Can residents reach green and blue cooling infrastructure?</h2>
+
+      <p>
+        Cooling infrastructure was evaluated using GIS-based
+        accessibility analysis. Green spaces and blue infrastructure
+        were considered important environmental resources that can
+        support cooling and heat adaptation.
+      </p>
+
+    </div>
+
+
+    <div class="map-grid">
+
+      <figure class="project-figure">
+        <img
+          src="assets/img/urban-heat/salzburg-green-accessibility.png"
+          alt="Accessibility to green cooling infrastructure across Salzburg">
+
+        <figcaption>
+          Accessibility to green cooling infrastructure across
+          Salzburg districts.
+        </figcaption>
+      </figure>
+
+
+      <figure class="project-figure">
+        <img
+          src="assets/img/urban-heat/salzburg-blue-accessibility.png"
+          alt="Accessibility to blue cooling infrastructure across Salzburg">
+
+        <figcaption>
+          Accessibility to blue cooling infrastructure across
+          Salzburg districts.
+        </figcaption>
+      </figure>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     ACCESSIBILITY DEFICIT
+========================= -->
+
+<section class="section">
+  <div class="container">
+
+    <div class="project-text-grid">
+
+      <div>
+        <span class="eyebrow">08 · Accessibility Deficit</span>
+
+        <h2>Identifying underserved districts</h2>
+
+        <p>
+          Green and blue accessibility indicators were combined to
+          identify districts where residents have comparatively limited
+          access to cooling infrastructure.
+        </p>
+
+        <p>
+          Higher accessibility-deficit values indicate areas where
+          opportunities to reach cooling resources are more limited,
+          making accessibility an important component of the overall
+          urban heat-risk framework.
+        </p>
+      </div>
+
+
+      <figure class="project-figure">
+        <img
+          src="assets/img/urban-heat/salzburg-accessibility-deficit.png"
+          alt="Combined accessibility deficit across Salzburg districts">
+
+        <figcaption>
+          Combined green and blue cooling accessibility deficit
+          across Salzburg districts.
+        </figcaption>
+      </figure>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     FINAL CUHRI
+========================= -->
+
+<section class="section result-section">
+  <div class="container">
+
+    <div class="section-head project-section-head">
+
+      <span class="eyebrow">09 · Final Integrated Result</span>
+
+      <h2>Composite Urban Heat Risk Index (CUHRI)</h2>
+
+      <p>
+        The final stage integrated heat hazard, demographic sensitivity,
+        vegetation conditions, built-environment characteristics and
+        cooling-accessibility deficit into a Composite Urban Heat Risk
+        Index.
+      </p>
+
+      <p>
+        The resulting map provides a district-level representation of
+        relative urban heat risk, ranging from very low to very high.
+        It highlights spatial inequalities that would not be visible
+        from temperature data alone.
+      </p>
+
+    </div>
+
+
+    <figure class="project-figure hero-map">
+
+      <img
+        src="assets/img/urban-heat/salzburg-cuhri-risk.png"
+        alt="Composite Urban Heat Risk Index across Salzburg districts">
+
+      <figcaption>
+        Final Composite Urban Heat Risk Index (CUHRI) across
+        Salzburg census districts.
+      </figcaption>
+
+    </figure>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     KEY FINDINGS
+========================= -->
+
+<section class="section">
+  <div class="container">
+
+    <div class="section-head project-section-head">
+      <span class="eyebrow">10 · Key Findings</span>
+      <h2>What the spatial analysis revealed</h2>
+    </div>
+
+
+    <div class="findings-grid">
+
+      <div class="finding-card">
+        <span>01</span>
+        <h3>Heat is spatially uneven</h3>
+        <p>
+          Surface-temperature patterns vary substantially across
+          Salzburg, with stronger heat exposure in several intensively
+          developed areas.
+        </p>
+      </div>
+
+
+      <div class="finding-card">
+        <span>02</span>
+        <h3>Vulnerability also varies</h3>
+        <p>
+          Sensitive population groups are unevenly distributed,
+          meaning exposure and vulnerability do not occur uniformly
+          across the city.
+        </p>
+      </div>
+
+
+      <div class="finding-card">
+        <span>03</span>
+        <h3>Cooling access is unequal</h3>
+        <p>
+          Access to green and blue infrastructure differs among
+          districts, creating areas with comparatively greater
+          cooling-accessibility deficits.
+        </p>
+      </div>
+
+
+      <div class="finding-card">
+        <span>04</span>
+        <h3>Risk requires integration</h3>
+        <p>
+          Combining environmental, demographic and accessibility
+          indicators provides a more comprehensive understanding of
+          urban heat risk than analysing temperature alone.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     SKILLS
+========================= -->
+
+<section class="section alt-section">
+  <div class="container">
+
+    <div class="section-head project-section-head">
+      <span class="eyebrow">Skills Demonstrated</span>
+      <h2>Geospatial techniques applied in this project</h2>
+    </div>
+
+
+    <div class="skill-list">
+
+      <span class="skill">QGIS</span>
+      <span class="skill">Google Earth Engine</span>
+      <span class="skill">Remote Sensing</span>
+      <span class="skill">Landsat 8/9</span>
+      <span class="skill">Land Surface Temperature</span>
+      <span class="skill">NDVI</span>
+      <span class="skill">NDBI</span>
+      <span class="skill">Raster Analysis</span>
+      <span class="skill">Vector Analysis</span>
+      <span class="skill">Network Analysis</span>
+      <span class="skill">Service-Area Modelling</span>
+      <span class="skill">Zonal Statistics</span>
+      <span class="skill">Spatial Data Integration</span>
+      <span class="skill">Composite Index Modelling</span>
+      <span class="skill">Cartographic Design</span>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =========================
+     REFLECTION
+========================= -->
+
+<section class="section">
+  <div class="container">
+
+    <div class="reflection-box">
+
+      <span class="eyebrow">Project Reflection</span>
+
+      <h2>What I learned</h2>
+
+      <p>
+        This project strengthened my ability to integrate satellite,
+        climate, demographic, land-use and network datasets within a
+        single geospatial research framework.
+      </p>
+
+      <p>
+        It also demonstrated the importance of looking beyond physical
+        heat exposure when assessing urban climate risk. Understanding
+        who is exposed and whether people can access cooling resources
+        provides a stronger basis for identifying priority areas for
+        climate adaptation and urban planning.
+      </p>
+
+      <a class="btn primary" href="projects.html">
+        ← Back to Projects
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+  <div class="container footer-row">
+
+    <span>
+      © 2026 Charles Olalekan Collins
+    </span>
+
+    <span>
+      Applied Geoinformatics ePortfolio · GitHub Pages
+    </span>
+
+  </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
